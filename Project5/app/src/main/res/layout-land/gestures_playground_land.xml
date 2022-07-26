@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/verticalgesture"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/gestureplayground"
+        android:layout_width="407dp"
+        android:layout_height="408dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="#27CD7202"
+        android:backgroundTint="#9FFF9900"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/backgroundtext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Gesture Playground"
+            android:textColor="#77FF0000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/ball"
+            android:layout_width="127dp"
+            android:layout_height="134dp"
+            android:background="#00FFFFFF"
+            android:src="@mipmap/ball"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
