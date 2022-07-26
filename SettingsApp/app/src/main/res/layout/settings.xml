@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/settingsList"
+        android:layout_width="200dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="211dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerlay">
+
+        <Button
+            android:id="@+id/soundButton"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:backgroundTint="#DC1C1C"
+            android:onClick="soundButtonOnclick"
+            android:text="Sound" />
+
+        <Button
+            android:id="@+id/batteryButton"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:backgroundTint="#DC1C1C"
+            android:onClick="batteryButtonOnclick"
+            android:text="Battery" />
+
+        <Button
+            android:id="@+id/storageButton"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:backgroundTint="#DC1C1C"
+            android:onClick="storageButtonOnclick"
+            android:text="Storage" />
+
+        <Button
+            android:id="@+id/displayButton"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:backgroundTint="#DC1C1C"
+            android:onClick="displayButtonOnclick"
+            android:text="display" />
+
+        <Button
+            android:id="@+id/systemButton"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:backgroundTint="#DC1C1C"
+            android:onClick="systemButtonOnclick"
+            android:text="system" />
+    </LinearLayout>
+</LinearLayout>
