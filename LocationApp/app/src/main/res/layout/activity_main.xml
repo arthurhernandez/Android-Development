@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:outlineProvider="none"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/viewEventsButton"
+        android:layout_width="228dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#FF0000"
+        android:onClick="viewEventsOnclick"
+        android:text="View Events"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addEventButton" />
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Arthur Hernandez (aohernan)"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/currentLocationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Current Location"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/currentLocationButton"
+        app:layout_constraintTop_toBottomOf="@+id/header" />
+
+    <Button
+        android:id="@+id/currentLocationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="37dp"
+        android:backgroundTint="#FF0000"
+        android:onClick="CurrentlocationOnclick"
+        android:text="Location"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header" />
+
+    <EditText
+        android:id="@+id/eventInformationTextBox"
+        android:layout_width="371dp"
+        android:layout_height="201dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="#FF0000"
+        android:ems="10"
+        android:gravity="top|left"
+        android:hint="Type event information here:"
+        android:inputType="textPersonName"
+        android:outlineProvider="background"
+        android:textColor="#FF0000"
+        android:textColorHint="#75FF0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currentLocationButton" />
+
+    <EditText
+        android:id="@+id/enterDataTextBox"
+        android:layout_width="369dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="23dp"
+        android:backgroundTint="#FF0000"
+        android:ems="10"
+        android:hint="Enter date here in MM/DD/YYYY format:"
+        android:inputType="date"
+        android:textColorHint="#7AFF0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eventInformationTextBox" />
+
+    <Button
+        android:id="@+id/addEventButton"
+        android:layout_width="271dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#FF0000"
+        android:onClick="addEventOnclick"
+        android:text="Add event"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterDataTextBox" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
