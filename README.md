@@ -69,4 +69,3 @@ API: com.google.android.geo.API_KEY
 
 
 [xmlFiles](https://github.com/arthurhernandez/Android-Development/tree/main/LocationApp/app/src/main/res/layout) | [activityFiles](https://github.com/arthurhernandez/Android-Development/tree/main/LocationApp/app/src/main/java/com/example/locationapp) | [manifestFile](https://github.com/arthurhernandez/Android-Development/blob/main/LocationApp/app/src/main/AndroidManifest.xml)
-
