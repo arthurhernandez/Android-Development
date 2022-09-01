@@ -8,4 +8,4 @@ Diffrent projects ranging from user logins to database manipulations
 
 [activity xml file](https://github.com/arthurhernandez/Android-Development/blob/main/Project1%202/app/src/main/res/layout/activity_main.xml)
 
-[mainActivityJavaFile](https://github.com/arthurhernandez/AndroidDevelopment/blob/main/Project1%202/app/src/main/java/com/example/project1/MainActivity.java)
+[mainActivityJavaFile](https://github.com/arthurhernandez/Android-Development/blob/main/Project1%202/app/src/main/java/com/example/project1/MainActivity.java)
