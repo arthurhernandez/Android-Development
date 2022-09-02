@@ -12,19 +12,6 @@ API and features: com.google.android.gms.ads using JSON interpreter and database
 
 <img width="150" alt="Screen Shot 2022-09-01 at 1 21 49 PM" src="https://user-images.githubusercontent.com/86990879/187985545-f4806b47-a05c-4718-8f33-53ebc361562a.png"> <img width="150" alt="Screen Shot 2022-09-01 at 1 22 14 PM" src="https://user-images.githubusercontent.com/86990879/187985619-94c3b0a5-4966-4ee0-959b-0e7687ba5d99.png"><img width="150" alt="Screen Shot 2022-09-01 at 1 22 31 PM" src="https://user-images.githubusercontent.com/86990879/187985665-701b805a-d9a6-4af5-9939-3d2dec8c5f14.png"><img width="150" alt="Screen Shot 2022-09-01 at 1 23 00 PM" src="https://user-images.githubusercontent.com/86990879/187985736-09225554-b234-4c1f-ab64-7f2c453f723e.png"><img width="150" alt="Screen Shot 2022-09-01 at 1 23 11 PM" src="https://user-images.githubusercontent.com/86990879/187985764-d43dd620-6c46-437a-a3cc-02918c4a9bf1.png"><img width="150" alt="Screen Shot 2022-09-01 at 1 23 23 PM" src="https://user-images.githubusercontent.com/86990879/187985797-7812ff3d-ca2e-4d61-b360-fb81e2f22faf.png">
 
-## [Rest API Recipe app with advertisments](https://github.com/arthurhernandez/Android-Development/tree/main/c323proj11aohernan)
-
-making use of In Mobile Advertisement (Banner Ads, Interstitial Ads, Rewarded Ads), Navigation Drawer, and REST API calls 
-
-Permissions: android.permission.INTERNET, android.permission.ACCESS_NETWORK_STATE 
-
-API and features: com.google.android.gms.ads using JSON interpreter and database handler for recipie list population
-
-<img width="100" alt="Screen Shot 2022-09-01 at 1 21 49 PM" src="https://user-images.githubusercontent.com/86990879/187985545-f4806b47-a05c-4718-8f33-53ebc361562a.png"> <img width="100" alt="Screen Shot 2022-09-01 at 1 22 14 PM" src="https://user-images.githubusercontent.com/86990879/187985619-94c3b0a5-4966-4ee0-959b-0e7687ba5d99.png"><img width="100" alt="Screen Shot 2022-09-01 at 1 22 31 PM" src="https://user-images.githubusercontent.com/86990879/187985665-701b805a-d9a6-4af5-9939-3d2dec8c5f14.png"><img width="100" alt="Screen Shot 2022-09-01 at 1 23 00 PM" src="https://user-images.githubusercontent.com/86990879/187985736-09225554-b234-4c1f-ab64-7f2c453f723e.png"><img width="100" alt="Screen Shot 2022-09-01 at 1 23 11 PM" src="https://user-images.githubusercontent.com/86990879/187985764-d43dd620-6c46-437a-a3cc-02918c4a9bf1.png"><img width="100" alt="Screen Shot 2022-09-01 at 1 23 23 PM" src="https://user-images.githubusercontent.com/86990879/187985797-7812ff3d-ca2e-4d61-b360-fb81e2f22faf.png">
-
-[xmlFiles](https://github.com/arthurhernandez/Android-Development/tree/main/c323proj11aohernan/app/src/main/res/layout) | [activityFiles](https://github.com/arthurhernandez/Android-Development/tree/main/c323proj11aohernan/app/src/main/java/com/example/c323proj11aohernan) | [manifestFile](https://github.com/arthurhernandez/Android-Development/blob/main/c323proj11aohernan/app/src/main/AndroidManifest.xml)
-
-
 ## [Travel Guide App](https://github.com/arthurhernandez/Android-Development/tree/main/c323midtermprojectaohernan)
 
 Contains different types  of  vacation  spots. Each vacation  type  has   different  tourist  destinations  in  it.   The  app  showcases  all  the  information of  a  tourist   destination  including  name,  best  time  to  visit,  activities  to  do,  nearest  airport  / nearest  city,  etc. The location of the tourist destination is also shown on the map so that user can get direction to the destination via this app. 
